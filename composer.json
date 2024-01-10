@@ -1,0 +1,24 @@
+{
+    "name": "ETMain",
+    "description": "etechmy",
+    "keywords": [
+        "etechmy"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "https://etechmy.com",
+    "authors": [{
+        "name": "ET",
+        "homepage": "https://etechmy.com"
+    }],
+    "require": {
+        "phpmailer/phpmailer":"^6.1.0",
+        "rajvaibhavjain/etlib": "2.6",
+        "aws/aws-sdk-php": "^3.194"
+    },
+    "autoload": {
+        "psr-4": {
+            "ETLAB\\": "src/"
+        }
+    }
+}

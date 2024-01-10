@@ -1,0 +1,21 @@
+{
+	"name" : "rajvaibhavjain/etlib",
+    "description" : "a small library to handle projects in better way",
+    "type" : "library",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "ET",
+            "email":"etechmy.com@gmail.com",
+            "homepage" : "http://etechmy.com"
+        }
+    ],
+
+	"autoload": {
+        "psr-4":{
+            "ETLAB\\":"src/"
+        }
+    },
+	"require" : {
+	}	
+}

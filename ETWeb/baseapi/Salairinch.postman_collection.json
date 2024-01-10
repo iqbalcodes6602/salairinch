@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "fa7e1a93-5579-4aa7-ba7f-acfac9b3db25",
+		"name": "Salairinch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25016471"
+	},
+	"item": [
+		{
+			"name": "contactus",
+			"item": [
+				{
+					"name": "setcontactus",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "iqbal",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "iqba@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "mobile",
+									"value": "9292929292",
+									"type": "text"
+								},
+								{
+									"key": "message",
+									"value": "hello there",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/salairinch/etweb/contactus/api.php/setcontactus",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"salairinch",
+								"etweb",
+								"contactus",
+								"api.php",
+								"setcontactus"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "book appointment",
+			"item": [
+				{
+					"name": "setbook",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "iqbal",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "iqba@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "mobile",
+									"value": "9292929292",
+									"type": "text"
+								},
+								{
+									"key": "message",
+									"value": "water line repair",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/salairinch/etweb/baseapi/api.php/setbook",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"salairinch",
+								"etweb",
+								"baseapi",
+								"api.php",
+								"setbook"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "login",
+			"item": [
+				{
+					"name": "setuserlogin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "mobile",
+									"value": "9898989898",
+									"type": "text"
+								},
+								{
+									"key": "otp",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/salairinch/etweb/baseapi/api.php/setuserlogin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"salairinch",
+								"etweb",
+								"baseapi",
+								"api.php",
+								"setuserlogin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userlogin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "mobile",
+									"value": "9828989898",
+									"type": "text"
+								},
+								{
+									"key": "otp",
+									"value": "278025",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost/salairinch/etweb/baseapi/api.php/userlogin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"salairinch",
+								"etweb",
+								"baseapi",
+								"api.php",
+								"userlogin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
